@@ -1,22 +1,25 @@
 <template>
         <q-page>
         <!-- <div> -->
-          <div class="q-mt-md flex flex-center" style= "line-height: 9vw; height: 100vh; background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url(https://img.freepik.com/premium-vector/abstract-blue-wave-banner-template-design_998164-96.jpg?w=1380); object-fit: contain;">
+          <div style="height: 95vh; background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url(https://img.freepik.com/premium-vector/abstract-blue-wave-banner-template-design_998164-96.jpg?w=1380); object-fit: contain;">
             <!-- <div class="col"> -->
-            <div class="text-center">
+            <div class="text-center q-py-xl">
               <h4 class="sec1">Frontend Developer Course with Placement</h4>
+              <h4 class="sec111">Get a dream tech job with 100% Placement Guarantee</h4>
               <div>
-                <marquee behavior="" direction="">
-                <img src="https://blog.harveydelaney.com/content/images/size/w2000/2019/08/react.jpg" width="250px" style="object-fit: contain; overflow: hidden; background-repeat: no-repeat;" alt="">
-                <img src="https://www.audero.it/blog/wp-content/uploads/2014/09/front-end-stack.png" width="345px" style="object-fit: contain; overflow: hidden; background-repeat: no-repeat;" alt="">
-                <img src="https://ruky.me/wp-content/uploads/2021/08/bootstrap-5-releases-with-major-changes.jpg" width="240px" style="object-fit: contain; overflow: hidden; background-repeat: no-repeat;" alt="">
+                <marquee class="marq" behavior="" direction="" width="1000px">
+                <img class="marq1" src="https://blog.harveydelaney.com/content/images/size/w2000/2019/08/react.jpg" width="230px" style="object-fit: contain; overflow: hidden; background-repeat: no-repeat;" alt="">
+                <img class="marq1" src="https://www.audero.it/blog/wp-content/uploads/2014/09/front-end-stack.png" width="325px" style="object-fit: contain; overflow: hidden; background-repeat: no-repeat;" alt="">
+                <img class="marq1" src="https://ruky.me/wp-content/uploads/2021/08/bootstrap-5-releases-with-major-changes.jpg" width="220px" style="object-fit: contain; overflow: hidden; background-repeat: no-repeat;" alt="">
               </marquee>
               </div>
               <h4 class="sec11">Pay Upto 80% Course Fee After Getting a Job.</h4>
-              <h4 class="sec12"><b>Earn up to 15 LPA</b></h4>
+              <h4 class="sec12"><b>Earn up to 10 LPA</b></h4>
+              <!-- <h4 class="sec13 q-mt-xl" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Our Enrollment Process</h4> -->
+              <p class="sec14">Click EnrollNow To Get Enroll In Our Education Curriculum</p>
               <!-- <q-btn push color="light-blue-2" text-color="deep-purple-10" style="width: 200px; height: 50px;" label="Enroll Now" /> -->
-              <div class="q-gutter-sm">
-              <q-btn push @click="open('top')" color="light-blue-2 text-weight-bold" text-color="deep-purple-10" style="letter-spacing: 2px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: 200px; height: 50px;" label="Enroll Now" />
+              <div>
+              <q-btn class="q-mt-xl" push @click="open('top')" color="light-blue-2 text-weight-bold" text-color="deep-purple-10" style="letter-spacing: 2px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: 200px; height: 50px;" label="Enroll Now" />
 
               <q-dialog v-model="dialog" :position="position">
                 <q-card style="width: 350px" class="bg-light-blue-1">
@@ -70,11 +73,15 @@
 
 
     <section style="background-image: linear-gradient(to right, rgba(255, 255, 255, 0.733), rgb(206, 224, 251));">
-      <div class="row q-pa-xl">
-        <div class="col-12 col-lg-6">
-        <h4 class="text-center" style="font-size: 2.5vmax; word-spacing: 2px; font-family:Verdana, Geneva, Tahoma, sans-serif ;">
+      <div class="row q-px-xl">
+        <div class="q-mt-md col-12 col-lg-6">
+        <!-- <h4 class="text-center" style="font-size: 1rem; word-spacing: 2px; font-family:Verdana, Geneva, Tahoma, sans-serif ;">
           <b>FrontEnd Developer Courses</b>
-        </h4>
+        </h4> -->
+        <div class="text-center">
+      <h4 style="font-size: 2rem; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+      <b> FrontEnd Developer Courses</b>
+    </h4></div>
         <p class="text-center">Are you ready to take your first step into the dynamic realm of web development? This comprehensive Front-End Development Course offers an immersive learning experience that equips you with the skills to craft captivating user interfaces and seamless interactions. Whether you're aspiring to become a certified front-end developer or simply want to learn the ropes of modern web design, this course is tailored to meet your goals.</p>
         <div>
             <!-- <ul class=""> -->
@@ -302,9 +309,9 @@
       </div>
     </section>
 
-    <div class="row">
+    <div class="row q-pa-xl">
           <div class="col-12 col-md-6 text-center">
-            <div class="q-pa-md q-gutter-y-md">
+            <div class="q-gutter-y-md">
               <div class="q-gutter-sm">
               <q-chip color="purple-2" style="height: 40px;">
                 <q-avatar style="width: 70px; height: 40px;" color="purple" text-color="white">96%</q-avatar>
@@ -318,7 +325,7 @@
             </div>
           </div>
           <div class="col-12 col-md-6 text-center">
-            <div class="q-pa-md q-gutter-y-md">
+            <div class="q-gutter-y-md">
               <div class="q-gutter-sm">
               <q-chip color="red-2" style="height: 40px;">
                 <q-avatar style="width: 70px; height: 40px;" color="red" text-color="white">8LPA</q-avatar>
@@ -333,6 +340,276 @@
           </div>
         </div>
   <!-- </div> -->
+<div>
+
+    <div class="text-center">
+      <h4 style="font-size: 2rem; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+      <b> Portions We Cover To Become A Frontent Developer</b>
+    </h4>
+  </div>
+
+<div class="flex justify-evenly">
+    <div class="q-pa-md">
+    <div style="max-width: auto">
+      <q-tabs
+        v-model="tab"
+        align="justify"
+        narrow-indicator
+        class="q-mb-lg"
+      >
+        <q-tab class="text-indigo-10" name="mails" label="HTML" />
+        <q-tab class="text-deep-purple-10" name="alarms" label="CSS" />
+        <q-tab class="text-indigo-10" name="movies" label="BOOTSTRAP" />
+      </q-tabs>
+
+      <div class="q-gutter-y-sm">
+        <q-tab-panels
+          v-model="tab"
+          animated
+          transition-prev="scale"
+          transition-next="scale"
+          class=""
+        >
+          <q-tab-panel name="mails" class="text-indigo-10 bg-indigo-1">
+            <div class="text-h6 text-center">PART - 1</div>
+              1.&nbsp;Introduction of HTML <br>
+              2.&nbsp;HTML Elements <br>
+              3.&nbsp;HTML Attributes <br>
+              4.&nbsp;HTML Headings <br>
+              5.&nbsp;HTML Styles <br>
+              6.&nbsp;HTML Comments <br>
+              7.&nbsp;HTML Colors <br>
+          </q-tab-panel>
+
+          <q-tab-panel name="alarms" class="text-deep-purple-10 bg-deep-purple-1">
+            <div class="text-h6 text-center">PART - 1</div>
+              1.&nbsp;Introduction of CSS <br>
+              2.&nbsp;Basics of CSS comments <br>
+              3.&nbsp;CSS Links <br>
+              4.&nbsp;CSS Borders <br>
+              5.&nbsp;CSS Margins <br>
+              6.&nbsp;CSS Fonts <br>
+              7.&nbsp;CSS Align <br>
+              8.&nbsp;CSS Borders
+          </q-tab-panel>
+
+          <q-tab-panel name="movies" class="text-indigo-10 bg-indigo-1">
+            <div class="text-h6 text-center">PART - 1</div>
+              1.&nbsp;Introduction of Bootstrap5 <br>
+              2.&nbsp;Bootstrap setup <br>
+              3.&nbsp;Breakpoints <br>
+              4.&nbsp;Containers <br>
+              5.&nbsp;Grid <br>
+              6.&nbsp;Gutters
+          </q-tab-panel>
+        </q-tab-panels>
+
+        <q-tab-panels
+          v-model="tab"
+          animated
+          transition-prev="fade"
+          transition-next="fade"
+          class="bg-orange text-white"
+        >
+          <q-tab-panel name="mails" class="text-indigo-10 bg-indigo-1">
+            <div class="text-h6 text-center">PART - 2</div>
+              8.&nbsp;HTML Links <br>
+              9.&nbsp;HTML Formatting
+              10.&nbsp;HTML Block and Inline Elements<br>
+              11.&nbsp;HTML Div Element<br>
+              12.&nbsp;HTML Layout<br>
+              13.&nbsp;HTML Responsive
+          </q-tab-panel>
+
+          <q-tab-panel name="alarms" class="text-deep-purple-10 bg-deep-purple-1">
+            <div class="text-h6 text-center">PART - 2</div>
+              9.&nbsp;&nbsp;&nbsp;CSS Advanced<br>
+              10.&nbsp;CSS Colors <br>
+              11.&nbsp;CSS Gradients <br>
+              12.&nbsp;CSS Transitions <br>
+              13.&nbsp;CSS Animations <br>
+              14.&nbsp;CSS The object-position Property
+          </q-tab-panel>
+
+          <q-tab-panel name="movies" class="text-indigo-10 bg-indigo-1">
+            <div class="text-h6 text-center">PART - 2</div>
+              7.&nbsp;Form Control <br>
+              8.&nbsp;Select,Check & Radio Boxes <br>
+              9.&nbsp;Range <br>
+          </q-tab-panel>
+        </q-tab-panels>
+
+        <q-tab-panels
+          v-model="tab"
+          animated
+          transition-prev="jump-up"
+          transition-next="jump-down"
+          class="bg-teal text-white"
+        >
+          <q-tab-panel name="mails" class="text-indigo-10 bg-indigo-1">
+            <div class="text-h6 text-center">PART - 3</div>
+              14.&nbsp;HTML Forms<br>
+              15.&nbsp;HTML Form Attributes<br>
+              16.&nbsp;HTML Form Elements<br>
+              17.&nbsp;HTML Input Types<br>
+              18.&nbsp;HTML Input Attributes<br>
+              19.&nbsp;HTML API's<br>
+          </q-tab-panel>
+
+          <q-tab-panel name="alarms" class="text-deep-purple-10 bg-deep-purple-1">
+            <div class="text-h6 text-center">PART - 3</div>
+              15.&nbsp;CSS Responsive<br>
+              16.&nbsp;CSS Grid<br>
+              16.&nbsp;CSS Flex<br>
+          </q-tab-panel>
+
+          <q-tab-panel name="movies" class="text-indigo-10 bg-indigo-1">
+            <div class="text-h6 text-center">PART - 3</div>
+              10.&nbsp;Floating Labels <br>
+              11.&nbsp;Layout <br>
+              12.&nbsp;Components Handling
+          </q-tab-panel>
+        </q-tab-panels>
+      </div>
+    </div>
+  </div>
+  <div class="borde" style="border-left: 1px solid rgb(162, 162, 248);"></div>
+  <div class="q-pa-md">
+    <div style="max-width: auto">
+      <q-tabs
+        v-model="tabu"
+        align="justify"
+        narrow-indicator
+        class="q-mb-lg"
+      >
+        <q-tab class="text-indigo-10" name="js" label="JavaScript" />
+        <q-tab class="text-deep-purple-10" name="bootstrap" label="VueJs" />
+        <q-tab class="text-indigo-10" name="react" label="React" />
+      </q-tabs>
+
+      <div class="q-gutter-y-sm">
+        <q-tab-panels
+          v-model="tabu"
+          animated
+          transition-prev="scale"
+          transition-next="scale"
+          class=""
+        >
+          <q-tab-panel name="js" class="text-indigo-10 bg-indigo-1">
+            <div class="text-h6 text-center">PART - 1</div>
+              1.&nbsp;Introduction of JavaScript <br>
+              2.&nbsp;JS Comments <br>
+              3.&nbsp;JS Datatypes <br>
+              4.&nbsp;JS Variables <br>
+              5.&nbsp;JS String <br>
+              6.&nbsp;JS Object <br>
+              7.&nbsp;JS Nested Objects
+          </q-tab-panel>
+
+          <q-tab-panel name="bootstrap" class="text-deep-purple-10 bg-deep-purple-1">
+            <div class="text-h6 text-center">PART - 1</div>
+              1.&nbsp;Introduction of Vue Js <br>
+              2.&nbsp;Vue Directives <br>
+              3.&nbsp;Vue v-bind <br>
+              4.&nbsp;Vue v-if <br>
+              5.&nbsp;Vue v-show <br>
+              6.&nbsp;Vue v-for <br>
+              7.&nbsp;Vue Events <br>
+              8.&nbsp;Vue Methods <br>
+              9.&nbsp;Vue v-model
+          </q-tab-panel>
+
+          <q-tab-panel name="react" class="text-indigo-10 bg-indigo-1">
+            <div class="text-h6 text-center">PART - 1</div>
+              1.&nbsp;Introduction of React Js <br>
+              2.&nbsp;React Components <br>
+              3.&nbsp;React Class <br>
+              4.&nbsp;React Props <br>
+              5.&nbsp;React Events <br>
+              6.&nbsp;React Conditions
+          </q-tab-panel>
+        </q-tab-panels>
+
+        <q-tab-panels
+          v-model="tabu"
+          animated
+          transition-prev="fade"
+          transition-next="fade"
+          class="bg-orange text-white"
+        >
+        <q-tab-panel name="js" class="text-indigo-10 bg-indigo-1">
+          <div class="text-h6 text-center">PART - 2</div>
+              8.&nbsp;JS For in loop <br>
+              9.&nbsp;JS For of loop <br>
+              10.&nbsp;JS Functions <br>
+              11.&nbsp;JS Function Expressions
+              12.&nbsp;JS Hoisting <br>
+              13.&nbsp;JS Variable Hoisting <br>
+              14.&nbsp;JS Events <br>
+              15.&nbsp;JS UseCapture
+          </q-tab-panel>
+
+          <q-tab-panel name="bootstrap" class="text-deep-purple-10 bg-deep-purple-1">
+            <div class="text-h6 text-center">PART - 2</div>
+              10.&nbsp;Vue Computed properties<br>
+              11.&nbsp;Vue Watchers <br>
+              12.&nbsp;Vue Templates <br>
+              13.&nbsp;Vue Components <br>
+              14.&nbsp;Vue Props <br>
+              15.&nbsp;Vue $emit()
+          </q-tab-panel>
+
+          <q-tab-panel name="react" class="text-indigo-10 bg-indigo-1">
+            <div class="text-h6 text-center">PART - 2</div>
+              7.&nbsp;React Lists <br>
+              8.&nbsp;React Forms <br>
+              9.&nbsp;React Router <br>
+              10.&nbsp;What is React Hook?<br>
+              11.&nbsp;Use state<br>
+              12.&nbsp;Use Effect
+          </q-tab-panel>
+        </q-tab-panels>
+
+        <q-tab-panels
+          v-model="tabu"
+          animated
+          transition-prev="jump-up"
+          transition-next="jump-down"
+          class="bg-teal text-white"
+        >
+        <q-tab-panel name="js" class="text-indigo-10 bg-indigo-1">
+          <div class="text-h6 text-center">PART - 3</div>
+              16.&nbsp;JS Cookies <br>
+              17.&nbsp;JS Session Storage <br>
+              18.&nbsp;JS Local Storage <br>
+              19.&nbsp;JS Page redirection <br>
+              20.&nbsp;JS Map <br>
+              21.&nbsp;JS DOM <br>
+              22.&nbsp;JS BOM <br>
+              23.&nbsp;JS Logical errors <br>
+              24.&nbsp;JS asynchronous
+        </q-tab-panel>
+
+          <q-tab-panel name="bootstrap" class="text-deep-purple-10 bg-deep-purple-1">
+            <div class="text-h6 text-center">PART - 3</div>
+              14.&nbsp;Vue Slots<br>
+              15.&nbsp;Vue v-slot <br>
+              16.&nbsp;Vue Scoped slots <br>
+              17.&nbsp;Vue Routing
+          </q-tab-panel>
+
+          <q-tab-panel name="react" class="text-indigo-10 bg-indigo-1">
+            <div class="text-h6 text-center">PART - 3</div>
+              13.&nbsp;Use Context<br>
+              14.&nbsp;Use Reducer
+          </q-tab-panel>
+        </q-tab-panels>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
 
   <div>
     <div class="text-center"><h4 style="font-size: 2rem; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><b> What Our Students Says</b></h4></div>
@@ -350,7 +627,7 @@
           <q-item-section>
             Person1
           </q-item-section>
-          <q-item-section side>
+          <q-item-section>
             <div class="row items-center">
               <q-icon name="star" color="blue" size="24px" />
               <q-icon name="star" color="blue" size="24px" />
@@ -702,7 +979,7 @@
             <q-separator />
             <q-card-actions vertical>
               <div class="q-pa-md text-center">
-                Not only chat support, but If you are stuck on any of your assignment share screen to ask doubts.
+                Not only chat support,If you are stuck on any of your assignment share screen to ask doubts.
               </div>
             </q-card-actions>
           </q-card>
@@ -728,7 +1005,7 @@
 
 
   <div style="background-image: linear-gradient(to left, rgb(183, 205, 239), rgb(206, 224, 251));">
-          <div class="q-pa-xl q-gutter-sm flex justify-center">
+          <div class="q-pa-md q-gutter-sm flex justify-center">
             <q-breadcrumbs separator="---" class="text-blue-14" active-color="secondary">
               <q-breadcrumbs-el class="text-blue-10" icon="home" />
               <q-breadcrumbs-el class="text-blue-10" label="Courses" icon="widgets" />
@@ -737,7 +1014,7 @@
           </div>
           <div style="border-bottom: 1px solid rgb(108, 108, 236);" class="q-ml-xl q-mr-xl"></div>
         <div class="footersec">
-        <div class="row q-pa-xl text-center">
+        <div class="row q-pa-md text-center">
           <div class="col-lg-3 col-6 text-indigo-10 q-mb-xl">
           <div><b>About</b></div>
           <div class="q-mt-md">
@@ -785,7 +1062,7 @@
            <div style="border-bottom: 1px solid rgb(108, 108, 236);" class="q-ml-xl q-mr-xl"></div>
 
            <div class="footsec">
-            <div class="row q-pa-xl text-center text-indigo-10">
+            <div class="row q-pa-md text-center text-indigo-10">
           <div class="col-12 col-md-2 q-mt-md">
             Careers
           </div>
@@ -835,6 +1112,8 @@ export default {
       counter,
       dialog,
       position,
+      tab: ref('mails'),
+      tabu: ref('js'),
 
       open (pos) {
         position.value = pos
@@ -856,13 +1135,26 @@ export default {
 <style>
 
   .sec1{
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: 600;
     /* width: 90%; */
     margin: auto;
     background-clip: text;
     color: transparent;
-    background: linear-gradient(to left,rgb(22, 42, 139),rgb(126, 125, 125),rgb(22, 42, 139));
+    background: linear-gradient(to left,rgb(22, 42, 139),rgb(235, 112, 5));
+    /* background: linear-gradient(to left,rgb(1,111,187),rgb(237,212,90),rgb(232,104,70)); */
+    -webkit-background-clip: text;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .sec111{
+    font-size: 1.3rem;
+    font-weight: 600;
+    /* width: 90%; */
+    margin: auto;
+    background-clip: text;
+    color: transparent;
+    background: linear-gradient(to left,rgb(235, 112, 5),rgb(22, 42, 139));
     /* background: linear-gradient(to left,rgb(1,111,187),rgb(237,212,90),rgb(232,104,70)); */
     -webkit-background-clip: text;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -882,6 +1174,33 @@ export default {
   }
 
   .sec12{
+    font-size: 1.3rem;
+    font-weight: 500;
+    /* width: 90%; */
+    /* margin: auto; */
+    background-clip: text;
+    color: transparent;
+    background: linear-gradient(to left, blue,red);
+    /* background: linear-gradient(to left,rgb(1,111,187),rgb(237,212,90),rgb(232,104,70)); */
+    -webkit-background-clip: text;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .sec13{
+    font-size: 1.3rem;
+    font-weight: 500;
+    /* width: 20%; */
+    margin: auto;
+    background-clip: text;
+    color: transparent;
+    background: linear-gradient(to left, rgb(165, 87, 115),rgb(59, 38, 194));
+    /* border: 1px solid brown; */
+    /* background: linear-gradient(to left,rgb(1,111,187),rgb(237,212,90),rgb(232,104,70)); */
+    -webkit-background-clip: text;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .sec14{
     font-size: 1.3rem;
     font-weight: 500;
     /* width: 90%; */
@@ -907,6 +1226,44 @@ export default {
     {
         display: flex;
         overflow-x: scroll;
+    }
+}
+
+@media screen and (max-width: 754px){
+    .borde
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 849px){
+    .marq
+    {
+        width: 500px;
+    }
+    .marq1
+    {
+        height: 110px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 548px){
+    .marq
+    {
+        width: 300px;
+    }
+    .marq1
+    {
+        height: 110px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 783px){
+    .sec1box
+    {
+
     }
 }
 

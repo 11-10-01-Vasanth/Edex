@@ -1,7 +1,7 @@
 <template>
         <q-page>
         <!-- <div> -->
-          <div style="height: 95vh; background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url(https://img.freepik.com/premium-vector/abstract-blue-wave-banner-template-design_998164-96.jpg?w=1380); object-fit: contain;">
+          <div style="height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url(https://img.freepik.com/premium-vector/abstract-blue-wave-banner-template-design_998164-96.jpg?w=1380); object-fit: contain;">
             <!-- <div class="col"> -->
             <div class="text-center q-py-xl">
               <h4 class="sec1">Frontend Developer Course with Placement</h4>
@@ -16,17 +16,17 @@
               <h4 class="sec11">Pay Upto 80% Course Fee After Getting a Job.</h4>
               <h4 class="sec12"><b>Earn up to 10 LPA</b></h4>
               <!-- <h4 class="sec13 q-mt-xl" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Our Enrollment Process</h4> -->
-              <p class="sec14">Click EnrollNow To Get Enroll In Our Education Curriculum</p>
+              <p class="sec14">Click Here To Enquire Our Education Curriculum</p>
               <!-- <q-btn push color="light-blue-2" text-color="deep-purple-10" style="width: 200px; height: 50px;" label="Enroll Now" /> -->
               <div>
-              <q-btn class="q-mt-xl" push @click="open('top')" color="light-blue-2 text-weight-bold" text-color="deep-purple-10" style="letter-spacing: 2px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: 200px; height: 50px;" label="Enroll Now" />
+              <q-btn class="q-mt-xl" push @click="open('top')" color="light-blue-2 text-weight-bold" text-color="deep-purple-10" style="letter-spacing: 2px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: 200px; height: 50px;" label="Enquiery" />
 
               <q-dialog v-model="dialog" :position="position">
                 <q-card style="width: 350px" class="bg-light-blue-1">
                   <q-linear-progress :value="1" color="deep-purple-10" />
                   <q-card-section>
                     <div>
-                      <div class="q-pa-md text-center text-brown-14"><b style="letter-spacing: 2px;">Take your first step in ExamsDaily</b></div>
+                      <div class="q-pa-md text-center text-brown-14"><b style="letter-spacing: 2px;">Take your first step in EdexTech</b></div>
                       <!-- <div class="text-grey">Fitz & The Tantrums</div> -->
                       <div class="q-pa-xl flex items-center q-gutter-xl">
                         <q-input color="blue-10" outlined v-model="text" label="Name">
@@ -409,7 +409,7 @@
           animated
           transition-prev="fade"
           transition-next="fade"
-          class="bg-orange text-white"
+          class="text-white"
         >
           <q-tab-panel name="mails" class="text-indigo-10 bg-indigo-1">
             <div class="text-h6 text-center">PART - 2</div>
@@ -444,7 +444,7 @@
           animated
           transition-prev="jump-up"
           transition-next="jump-down"
-          class="bg-teal text-white"
+          class="text-white"
         >
           <q-tab-panel name="mails" class="text-indigo-10 bg-indigo-1">
             <div class="text-h6 text-center">PART - 3</div>
@@ -535,7 +535,7 @@
           animated
           transition-prev="fade"
           transition-next="fade"
-          class="bg-orange text-white"
+          class="text-white"
         >
         <q-tab-panel name="js" class="text-indigo-10 bg-indigo-1">
           <div class="text-h6 text-center">PART - 2</div>
@@ -575,7 +575,7 @@
           animated
           transition-prev="jump-up"
           transition-next="jump-down"
-          class="bg-teal text-white"
+          class="text-white"
         >
         <q-tab-panel name="js" class="text-indigo-10 bg-indigo-1">
           <div class="text-h6 text-center">PART - 3</div>
@@ -609,325 +609,6 @@
   </div>
   </div>
 </div>
-
-
-  <div>
-    <div class="text-center"><h4 style="font-size: 2rem; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><b> What Our Students Says</b></h4></div>
-    <div class="row q-pa-md">
-      <div class="col-12 col-md-4 col-sm-6">
-        <div class="q-pa-md">
-        <q-list bordered class="rounded-borders bg-light-blue-1">
-        <q-expansion-item>
-          <template v-slot:header>
-          <q-item-section avatar>
-            <q-avatar>
-          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
-        </q-avatar>
-          </q-item-section>
-          <q-item-section>
-            Person1
-          </q-item-section>
-          <q-item-section>
-            <div class="row items-center">
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-            </div>
-          </q-item-section>
-        </template>
-        <q-card>
-          <q-card-section>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, eius reprehenderit eos corrupti
-            commodi magni quaerat ex numquam, dolorum officiis modi facere maiores architecto suscipit iste
-            eveniet doloribus ullam aliquid.
-          </q-card-section>
-        </q-card>
-      </q-expansion-item>
-      <q-separator />
-      </q-list>
-      </div>
-      </div>
-      <div class="col-12 col-md-4 col-sm-6">
-        <div class="q-pa-md">
-        <q-list bordered class="rounded-borders bg-light-blue-1">
-        <q-expansion-item>
-          <template v-slot:header>
-          <q-item-section avatar>
-            <q-avatar>
-          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
-        </q-avatar>
-          </q-item-section>
-          <q-item-section>
-            Person2
-          </q-item-section>
-          <q-item-section side>
-            <div class="row items-center">
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-            </div>
-          </q-item-section>
-        </template>
-        <q-card>
-          <q-card-section>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, eius reprehenderit eos corrupti
-            commodi magni quaerat ex numquam, dolorum officiis modi facere maiores architecto suscipit iste
-            eveniet doloribus ullam aliquid.
-          </q-card-section>
-        </q-card>
-      </q-expansion-item>
-      <q-separator />
-      </q-list>
-      </div>
-      </div>
-      <div class="col-12 col-md-4 col-sm-6">
-        <div class="q-pa-md">
-        <q-list bordered class="rounded-borders bg-light-blue-1">
-        <q-expansion-item>
-          <template v-slot:header>
-          <q-item-section avatar>
-            <q-avatar>
-          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
-        </q-avatar>
-          </q-item-section>
-          <q-item-section>
-            Person3
-          </q-item-section>
-          <q-item-section side>
-            <div class="row items-center">
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-            </div>
-          </q-item-section>
-        </template>
-        <q-card>
-          <q-card-section>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, eius reprehenderit eos corrupti
-            commodi magni quaerat ex numquam, dolorum officiis modi facere maiores architecto suscipit iste
-            eveniet doloribus ullam aliquid.
-          </q-card-section>
-        </q-card>
-      </q-expansion-item>
-      <q-separator />
-      </q-list>
-      </div>
-      </div>
-      <div class="col-12 col-md-4 col-sm-6">
-        <div class="q-pa-md">
-        <q-list bordered class="rounded-borders bg-light-blue-1">
-        <q-expansion-item>
-          <template v-slot:header>
-          <q-item-section avatar>
-            <q-avatar>
-          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
-        </q-avatar>
-          </q-item-section>
-          <q-item-section>
-            Person4
-          </q-item-section>
-          <q-item-section side>
-            <div class="row items-center">
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-            </div>
-          </q-item-section>
-        </template>
-        <q-card>
-          <q-card-section>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, eius reprehenderit eos corrupti
-            commodi magni quaerat ex numquam, dolorum officiis modi facere maiores architecto suscipit iste
-            eveniet doloribus ullam aliquid.
-          </q-card-section>
-        </q-card>
-      </q-expansion-item>
-      <q-separator />
-      </q-list>
-      </div>
-      </div>
-      <div class="col-12 col-md-4 col-sm-6">
-        <div class="q-pa-md">
-        <q-list bordered class="rounded-borders bg-light-blue-1">
-        <q-expansion-item>
-          <template v-slot:header>
-          <q-item-section avatar>
-            <q-avatar>
-          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
-        </q-avatar>
-          </q-item-section>
-          <q-item-section>
-            Person5
-          </q-item-section>
-          <q-item-section side>
-            <div class="row items-center">
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-            </div>
-          </q-item-section>
-        </template>
-        <q-card>
-          <q-card-section>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, eius reprehenderit eos corrupti
-            commodi magni quaerat ex numquam, dolorum officiis modi facere maiores architecto suscipit iste
-            eveniet doloribus ullam aliquid.
-          </q-card-section>
-        </q-card>
-      </q-expansion-item>
-      <q-separator />
-      </q-list>
-      </div>
-      </div>
-      <div class="col-12 col-md-4 col-sm-6">
-        <div class="q-pa-md">
-        <q-list bordered class="rounded-borders bg-light-blue-1">
-        <q-expansion-item>
-          <template v-slot:header>
-          <q-item-section avatar>
-            <q-avatar>
-          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
-        </q-avatar>
-          </q-item-section>
-          <q-item-section>
-            Person6
-          </q-item-section>
-          <q-item-section side>
-            <div class="row items-center">
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-            </div>
-          </q-item-section>
-        </template>
-        <q-card>
-          <q-card-section>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, eius reprehenderit eos corrupti
-            commodi magni quaerat ex numquam, dolorum officiis modi facere maiores architecto suscipit iste
-            eveniet doloribus ullam aliquid.
-          </q-card-section>
-        </q-card>
-      </q-expansion-item>
-      <q-separator />
-      </q-list>
-      </div>
-      </div>
-      <div class="col-12 col-md-4 col-sm-6">
-        <div class="q-pa-md">
-        <q-list bordered class="rounded-borders bg-light-blue-1">
-        <q-expansion-item>
-          <template v-slot:header>
-          <q-item-section avatar>
-            <q-avatar>
-          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
-        </q-avatar>
-          </q-item-section>
-          <q-item-section>
-            Person7
-          </q-item-section>
-          <q-item-section side>
-            <div class="row items-center">
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-            </div>
-          </q-item-section>
-        </template>
-        <q-card>
-          <q-card-section>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, eius reprehenderit eos corrupti
-            commodi magni quaerat ex numquam, dolorum officiis modi facere maiores architecto suscipit iste
-            eveniet doloribus ullam aliquid.
-          </q-card-section>
-        </q-card>
-      </q-expansion-item>
-      <q-separator />
-      </q-list>
-      </div>
-      </div>
-      <div class="col-12 col-md-4 col-sm-6">
-        <div class="q-pa-md">
-        <q-list bordered class="rounded-borders bg-light-blue-1">
-        <q-expansion-item>
-          <template v-slot:header>
-          <q-item-section avatar>
-            <q-avatar>
-          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
-        </q-avatar>
-          </q-item-section>
-          <q-item-section>
-            Person8
-          </q-item-section>
-          <q-item-section side>
-            <div class="row items-center">
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-            </div>
-          </q-item-section>
-        </template>
-        <q-card>
-          <q-card-section>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, eius reprehenderit eos corrupti
-            commodi magni quaerat ex numquam, dolorum officiis modi facere maiores architecto suscipit iste
-            eveniet doloribus ullam aliquid.
-          </q-card-section>
-        </q-card>
-      </q-expansion-item>
-      <q-separator />
-      </q-list>
-      </div>
-      </div>
-      <div class="col-12 col-md-4 col-sm-6">
-        <div class="q-pa-md">
-        <q-list bordered class="rounded-borders bg-light-blue-1">
-        <q-expansion-item>
-          <template v-slot:header>
-          <q-item-section avatar>
-            <q-avatar>
-          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
-        </q-avatar>
-          </q-item-section>
-          <q-item-section>
-            Person9
-          </q-item-section>
-          <q-item-section side>
-            <div class="row items-center">
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-              <q-icon name="star" color="blue" size="24px" />
-            </div>
-          </q-item-section>
-        </template>
-        <q-card>
-          <q-card-section>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, eius reprehenderit eos corrupti
-            commodi magni quaerat ex numquam, dolorum officiis modi facere maiores architecto suscipit iste
-            eveniet doloribus ullam aliquid.
-          </q-card-section>
-        </q-card>
-      </q-expansion-item>
-      <q-separator />
-      </q-list>
-      </div>
-      </div>
-    </div>
-  </div>
 
   <div style="background-color: rgba(209, 206, 206, 0.349);" class="q-mb-md">
     <div>
@@ -1000,6 +681,362 @@
           </q-card>
           </div>
       </div>
+  </div>
+
+    <div class="row q-pa-xl">
+      <div class="col-12 col-lg-8">
+        <div>
+          <div class="text-center">
+            <h4 style="font-size: 2rem; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            <b> What Our Students Says</b>
+          </h4>
+        </div>
+        <div class="row q-mt-xl">
+        <div class="col-12 col-md-6">
+        <div class="q-pa-md">
+        <q-list bordered class="rounded-borders bg-light-blue-1">
+        <q-expansion-item>
+          <template v-slot:header>
+          <q-item-section avatar>
+            <q-avatar>
+          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
+        </q-avatar>
+          </q-item-section>
+          <q-item-section>
+            Vasanth
+          </q-item-section>
+          <q-item-section side>
+            <div class="row items-center">
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+            </div>
+          </q-item-section>
+        </template>
+        <q-card>
+          <q-card-section>
+            "Its really PROUD to be a part of such great ACADEMY...!! The classes are superb with all the required facilities and so COOPERATING faculty. You can even share any kind of problem with the FACULTIES. All over the academy team in very INSPIRING and full of ENTHUSIASM..The most admiring part is that the tutors focus on CONCEPTUAL development..!! So I recommend students aspiring for 'Full stack developer' to join "EDEX TECH ACADEMY" for enhancing your knowledge and to get best RESULTS..!!👍👍👍"
+          </q-card-section>
+        </q-card>
+      </q-expansion-item>
+      <q-separator />
+      </q-list>
+      </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="q-pa-md">
+        <q-list bordered class="rounded-borders bg-light-blue-1">
+        <q-expansion-item>
+          <template v-slot:header>
+          <q-item-section avatar>
+            <q-avatar>
+          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
+        </q-avatar>
+          </q-item-section>
+          <q-item-section>
+            Selina
+          </q-item-section>
+          <q-item-section side>
+            <div class="row items-center">
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+            </div>
+          </q-item-section>
+        </template>
+        <q-card>
+          <q-card-section>
+            I want to express my gratitude to Edex Tech for offering an exceptional full-stack developer course. The course structure is comprehensive, covering both front-end and back-end development extensively. The knowledgeable instructors have been instrumental in enhancing my skills, making this learning experience a standout in my career. The practical projects provided hands-on experience, solidifying my understanding of key concepts. The support from the Edex Tech team has been remarkable, with prompt responses to queries and additional resources for further learning. I highly recommend Edex Tech for their commitment to delivering a top-notch full-stack developer course. It has truly been a valuable investment in my professional journey. Thank you, Edex Tech, for your excellence and support!
+          </q-card-section>
+        </q-card>
+      </q-expansion-item>
+      <q-separator />
+      </q-list>
+      </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="q-pa-md">
+        <q-list bordered class="rounded-borders bg-light-blue-1">
+        <q-expansion-item>
+          <template v-slot:header>
+          <q-item-section avatar>
+            <q-avatar>
+          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
+        </q-avatar>
+          </q-item-section>
+          <q-item-section>
+            Rubini
+          </q-item-section>
+          <q-item-section side>
+            <div class="row items-center">
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+            </div>
+          </q-item-section>
+        </template>
+        <q-card>
+          <q-card-section>
+            I'm truly grateful to Edex Tech for the exceptional full-stack developer course they offer. The well-structured curriculum and skilled instructors have significantly boosted my proficiency in both front-end and back-end development. This learning experience stands out as the pinnacle of my career, and I extend my sincere appreciation to Edex Tech for their outstanding support and guidance. The hands-on projects provided a practical edge, and the trainers' expertise ensured a comprehensive understanding of complex concepts. The responsive support from the Edex Tech team further enhanced the overall experience. I highly recommend Edex Tech to anyone seeking a top-notch full-stack developer course – it's a valuable investment in professional growth. Thank you, Edex Tech, for your commitment to excellence!
+          </q-card-section>
+        </q-card>
+      </q-expansion-item>
+      <q-separator />
+      </q-list>
+      </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="q-pa-md">
+        <q-list bordered class="rounded-borders bg-light-blue-1">
+        <q-expansion-item>
+          <template v-slot:header>
+          <q-item-section avatar>
+            <q-avatar>
+          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
+        </q-avatar>
+          </q-item-section>
+          <q-item-section>
+            Naresh
+          </q-item-section>
+          <q-item-section side>
+            <div class="row items-center">
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+            </div>
+          </q-item-section>
+        </template>
+        <q-card>
+          <q-card-section>
+            Good Environment! The best and very intellectual way of teaching. Teaching is very smooth with mam and Sir and are very friendly. The concepts are very clear. They use new and cool ways to teach and focus on using what you learn in real life. Coaching is more on practical knowledge.
+
+Thanks to Edex Tech...
+          </q-card-section>
+        </q-card>
+      </q-expansion-item>
+      <q-separator />
+      </q-list>
+      </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="q-pa-md">
+        <q-list bordered class="rounded-borders bg-light-blue-1">
+        <q-expansion-item>
+          <template v-slot:header>
+          <q-item-section avatar>
+            <q-avatar>
+          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
+        </q-avatar>
+          </q-item-section>
+          <q-item-section>
+            Nagajothi
+          </q-item-section>
+          <q-item-section side>
+            <div class="row items-center">
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+            </div>
+          </q-item-section>
+        </template>
+        <q-card>
+          <q-card-section>
+            I highly appreciate Edex Tech for offering an exceptional full-stack developer course. The comprehensive curriculum and skilled trainers have significantly enhanced my skills in both front-end and back-end development. This learning experience has been the best in my career, and I am sincerely grateful to Edex Tech for their outstanding support and guidance.
+          </q-card-section>
+        </q-card>
+      </q-expansion-item>
+      <q-separator />
+      </q-list>
+      </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="q-pa-md">
+        <q-list bordered class="rounded-borders bg-light-blue-1">
+        <q-expansion-item>
+          <template v-slot:header>
+          <q-item-section avatar>
+            <q-avatar>
+          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
+        </q-avatar>
+          </q-item-section>
+          <q-item-section>
+            Ponraj
+          </q-item-section>
+          <q-item-section side>
+            <div class="row items-center">
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+            </div>
+          </q-item-section>
+        </template>
+        <q-card>
+          <q-card-section>
+            awesome😊 the class’s and training was excellent with good interaction.
+The instructor spoke very clear and was very knowledgeable and patient. all the staff members are also very friendly….
+          </q-card-section>
+        </q-card>
+      </q-expansion-item>
+      <q-separator />
+      </q-list>
+      </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="q-pa-md">
+        <q-list bordered class="rounded-borders bg-light-blue-1">
+        <q-expansion-item>
+          <template v-slot:header>
+          <q-item-section avatar>
+            <q-avatar>
+          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
+        </q-avatar>
+          </q-item-section>
+          <q-item-section>
+            Goodwin
+          </q-item-section>
+          <q-item-section side>
+            <div class="row items-center">
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+            </div>
+          </q-item-section>
+        </template>
+        <q-card>
+          <q-card-section>
+            The training program exceeded my expectations in terms of content quality and depth. The instructors were highly knowledgeable, approachable, and skilled at conveying complex concepts in a way that was easy to understand. Their real-world experience added immense value to the training. My training experience at EdexTech IT solutions Company has been immensely valuable. I feel more confident in applying the skills I've acquired, and I appreciate the company's dedication to providing exceptional training services. I look forward to engaging in future opportunities with Edextech IT solutions Company.
+          </q-card-section>
+        </q-card>
+      </q-expansion-item>
+      <q-separator />
+      </q-list>
+      </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="q-pa-md">
+        <q-list bordered class="rounded-borders bg-light-blue-1">
+        <q-expansion-item>
+          <template v-slot:header>
+          <q-item-section avatar>
+            <q-avatar>
+          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
+        </q-avatar>
+          </q-item-section>
+          <q-item-section>
+            Vijay
+          </q-item-section>
+          <q-item-section side>
+            <div class="row items-center">
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+            </div>
+          </q-item-section>
+        </template>
+        <q-card>
+          <q-card-section>
+            First of all big thanks for Edex team❤️ I have made a good decision in my career. Coach and mentors are very knowledgeable to explain concepts and clarify doubts. I feel grateful to be a part of it. Thanks to my coaches, mentors and their support.😊
+          </q-card-section>
+        </q-card>
+      </q-expansion-item>
+      <q-separator />
+      </q-list>
+      </div>
+      </div>
+      <!-- <div class="col-12 col-md-6">
+        <div class="q-pa-md">
+        <q-list bordered class="rounded-borders bg-light-blue-1">
+        <q-expansion-item>
+          <template v-slot:header>
+          <q-item-section avatar>
+            <q-avatar>
+          <img src="https://cdn.quasar.dev/img/boy-avatar.png">
+        </q-avatar>
+          </q-item-section>
+          <q-item-section>
+            Person9
+          </q-item-section>
+          <q-item-section side>
+            <div class="row items-center">
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+              <q-icon name="star" color="blue" size="15px" />
+            </div>
+          </q-item-section>
+        </template>
+        <q-card>
+          <q-card-section>
+            awesome😊 the class’s and training was excellent with good interaction.
+The instructor spoke very clear and was very knowledgeable and patient. all the staff members are also very friendly….
+          </q-card-section>
+        </q-card>
+      </q-expansion-item>
+      <q-separator />
+      </q-list>
+      </div>
+      </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 flex flex-center">
+      <q-card style="max-height: fit-content; width: auto" class="bg-light-blue-1">
+                  <q-linear-progress :value="1" color="deep-purple-10" />
+                  <q-card-section>
+                    <div>
+                      <div class="q-pa-md text-center text-brown-14"><b style="letter-spacing: 2px;">Take your first step in EdexTech</b></div>
+                      <!-- <div class="text-grey">Fitz & The Tantrums</div> -->
+                      <div class="q-pa-xl flex items-center q-gutter-xl justify-center">
+                        <q-input color="blue-10" outlined v-model="text" label="Name">
+                          <template v-slot:append>
+                        <q-avatar>
+                          <img src="https://digikull.com/_next/static/media/user.b051d75a.png">
+                        </q-avatar>
+                          </template>
+                        </q-input>
+                        <q-input color="blue-10" outlined v-model="text" label="Gmail">
+                          <template v-slot:append>
+                        <q-avatar>
+                          <img src="https://digikull.com/_next/static/media/gmail.fdeca59f.png">
+                        </q-avatar>
+                          </template>
+                        </q-input>
+                        <q-input color="blue-10" outlined v-model="text" label="Contact No.">
+                          <template v-slot:append>
+                        <q-avatar>
+                          <img src="https://digikull.com/_next/static/media/whatapp.92e48152.png">
+                        </q-avatar>
+                          </template>
+                        </q-input>
+                        <!-- <div class=""> -->
+                          <q-btn color="light-blue-2 text-weight-bold" text-color="deep-purple-10" style="letter-spacing: 2px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: 200px; height: 50px;" label="SEND ENQUIRE">
+                          <q-tooltip class="bg-pink-10">Send Enquire</q-tooltip>
+                          </q-btn>
+                        <!-- </div> -->
+                      </div>
+
+                    </div>
+                    <q-space />
+                    <!-- <q-btn flat round icon="fast_rewind" />
+                    <q-btn flat round icon="pause" />
+                    <q-btn flat round icon="fast_forward" /> -->
+                  </q-card-section>
+                  <q-linear-progress :value="1" color="deep-purple-10" />
+                </q-card>
+    </div>
   </div>
 
 
@@ -1236,10 +1273,10 @@ export default {
     }
 }
 
-@media screen and (max-width: 849px){
+@media screen and (max-width: 1057px){
     .marq
     {
-        width: 500px;
+        max-width:fit-content;
     }
     .marq1
     {
@@ -1248,10 +1285,10 @@ export default {
     }
 }
 
-@media screen and (max-width: 548px){
+@media screen and (max-width: 425px){
     .marq
     {
-        width: 300px;
+        max-width: 350px;
     }
     .marq1
     {
@@ -1260,10 +1297,15 @@ export default {
     }
 }
 
-@media screen and (max-width: 783px){
-    .sec1box
+@media screen and (max-width: 325px){
+    .marq
     {
-
+        max-width: 200px;
+    }
+    .marq1
+    {
+        height: 100px;
+        width: 200;
     }
 }
 
